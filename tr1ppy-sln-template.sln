@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{3BC65E3E-2F26-436B-8ED7-455D53193E20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "npm", "npm", "{6F4D1F8D-D897-40FD-BA7C-64649643487C}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+		package-lock.json = package-lock.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cpm", "cpm", "{BAF3BB3F-9050-4E21-83D1-1F60AF1FA56D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{CACCD8EE-571C-448F-908C-2700F74A8E9C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json.bak = global.json.bak
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0D28934-0F9A-4DAC-B2D7-34C8B515D684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8B94BB42-C366-4916-80BA-77009F4F5BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Host", "src\Template.Host\Template.Host.csproj", "{2A97D582-138B-4B11-9DCB-EAD13BBABC28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F4D1F8D-D897-40FD-BA7C-64649643487C} = {3BC65E3E-2F26-436B-8ED7-455D53193E20}
+		{BAF3BB3F-9050-4E21-83D1-1F60AF1FA56D} = {3BC65E3E-2F26-436B-8ED7-455D53193E20}
+		{CACCD8EE-571C-448F-908C-2700F74A8E9C} = {3BC65E3E-2F26-436B-8ED7-455D53193E20}
+		{2A97D582-138B-4B11-9DCB-EAD13BBABC28} = {E0D28934-0F9A-4DAC-B2D7-34C8B515D684}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A97D582-138B-4B11-9DCB-EAD13BBABC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A97D582-138B-4B11-9DCB-EAD13BBABC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A97D582-138B-4B11-9DCB-EAD13BBABC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A97D582-138B-4B11-9DCB-EAD13BBABC28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
